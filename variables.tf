@@ -7,11 +7,6 @@ variable "create" {
   default     = true
 }
 
-variable "vpc_id" {
-  description = "ID of the VPC where to create security group"
-  type        = string
-}
-
 variable "name" {
   description = "Name of security group"
   type        = string
